@@ -13,7 +13,7 @@
     "@mantine/hooks": "^8.1.2",
     "imagekit": "^6.0.0",
     "imagekitio-next": "^1.0.1",
-    "next": "15.2.4",
+    "next": "15.2.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
