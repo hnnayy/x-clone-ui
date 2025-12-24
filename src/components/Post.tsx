@@ -39,9 +39,7 @@ const Post = () => {
 
           {/* Text Content */}
           <p className="mt-2 text-sm leading-relaxed">
-            Platform khusus pembela newjeans <br />
             Hidup wanita yang melawan
-            tp minimal comeback dulu si jangan tiba-tiba hiatus bjirr
           </p>
 
           {/* Image Content */}
