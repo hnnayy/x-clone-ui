@@ -251,7 +251,7 @@ const ShareForm = () => {
               onMouseUp={handleMouseUp}
               onMouseLeave={() => isCropping && setIsCropping(false)}
             >
-              <img 
+              <img // eslint-disable-line @next/next/no-img-element
                 ref={imageRef}
                 src={previewUrl} 
                 alt="Upload preview" 
