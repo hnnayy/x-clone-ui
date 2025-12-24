@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { IKImage } from "imagekitio-next";
+import { Image } from "@imagekit/next";
 
 type ImageType = {
   path: string;
@@ -12,11 +12,11 @@ type ImageType = {
 
 const urlEndpoint = "https://ik.imagekit.io/r88gseoed"; // Hanya endpoint, tanpa gambar
 
-const Image = ({ path, w, h, alt, className }: ImageType) => {
+const ImageComponent = ({ path, w, h, alt, className }: ImageType) => {
   return (
-    <IKImage
+    <Image
       urlEndpoint={urlEndpoint}
-      path={path}
+      src={path}
       width={w}
       height={h}
       alt={alt || "Image"}
@@ -25,7 +25,7 @@ const Image = ({ path, w, h, alt, className }: ImageType) => {
   );
 };
 
-export default Image;
+export default ImageComponent;
 
 // Windows/Linux: Shift + Alt + F -> format multiline
 
